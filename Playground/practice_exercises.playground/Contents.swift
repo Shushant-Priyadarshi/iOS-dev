@@ -166,3 +166,38 @@ shoppingCart.getTotalCost()
 
 
 
+//MARK: - Closure Revise
+
+var clo1 = { myNum in
+    return myNum * 2
+}
+
+clo1(10)
+
+//closure without parameter
+var clo2 = {() -> Int in
+    return 2025
+}
+
+clo2()
+
+//closure with one parameter
+var clo3 = { (name:String) in
+    return "Hello \(name)"
+}
+
+var clo4 = { (name:String) -> String in
+    return "Hello \(name)"
+}
+
+clo3("Swift")
+
+
+//multiple parameter
+
+var clo5 = { (name1:String,name2:String) -> String in
+    return "Hello \(name1) and \(name2)"
+}
+clo5("shushant","kavya")
+
+
