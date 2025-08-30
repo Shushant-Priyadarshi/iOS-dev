@@ -8,15 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("username") var username = ""
-    
     var body: some View {
-        VStack {
-            TextField("Enter your name: ", text: $username)
-            
-            Text("Hello \(username)")
-        }
-        .padding()
+        NoListView()
     }
 }
 
