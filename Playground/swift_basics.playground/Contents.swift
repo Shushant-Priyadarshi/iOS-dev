@@ -6,6 +6,7 @@ let age:Int=19       //constant
 //Range
 var range1 = 1...5 // 1 to 5
 var range2 = 1..<5 // 1 to 4
+print(range1)
 
 //String
 var userInfo:String = "User name is \(userName) and his age is \(age)"
