@@ -1,4 +1,4 @@
-import UIKit
+//MARK: - Properties
 
 
-var greeting = "Hello, playground"
+
